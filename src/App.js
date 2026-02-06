@@ -9,6 +9,7 @@ function App() {
   return (
     <CartProvider>
       <Router>
+        <Navbar/>
         <Routes>
           <Route path="/" element={<ProductPage />} />
           <Route path="/cart" element={<CartPage />} />
